@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=League+Spartan:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html{
+    --primary: hsl(5, 85%, 63%);
+    --secondary: hsl(35, 77%, 62%);
+    --third: hsl(240, 100%, 5%);
+    --body-bg: hsl(36, 100%, 99%);
+    --muted: hsl(233, 8%, 79%);
+    --muted-dark: hsl(236, 13%, 42%);
+    font-size: 15px;
+  }
+  body{
+    /* @apply w-screen h-screen; */
+    font-family: 'Inter', sans-serif;
+    background-color: var(--body-bg);
+  }
+}
